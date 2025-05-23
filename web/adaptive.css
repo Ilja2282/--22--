@@ -44,9 +44,9 @@ body {
 }
 
 .hero-bg {
-  width: 100%;          /* всегда как ширина окна */
-  height: 91vh;         /* высота — на весь экран */
-  object-fit: cover;     /* картинка обрезается, не сжимается */
+  width: 100%;          
+  height: 91vh;         
+  object-fit: cover;     
   display: block;
 }
 
@@ -57,17 +57,17 @@ body {
   left: 10%;
   right: 10%;
   p {
-  margin-top: 15rem; /* можно увеличить до 2rem или 20px, если нужно больше */
+  margin-top: 15rem; 
   }
 }
 
 .about {
   display: flex;
   justify-content: space-between;
-  align-items: center;      /* Выравнивание по вертикали */
+  align-items: center;      
   gap: 2rem;
   padding: 2rem;
-  height: 100vh;            /* Занимает всю высоту экрана */
+  height: 100vh;           
   box-sizing: border-box;
 }
 
@@ -76,7 +76,7 @@ body {
   text-align: justify;
   display: flex;
   flex-direction: column;
-  justify-content: center;  /* Центрирует содержимое по вертикали внутри блока */
+  justify-content: center;  
   height: 100%;
 }
 
@@ -100,7 +100,7 @@ body {
 .services {
   padding: 2rem;
   max-width: 100%;
-  margin-bottom: 4rem; /* пространство перед футером */
+  margin-bottom: 4rem; 
 }
 
 .services .uptext {
@@ -128,7 +128,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  font-size: 1.1rem; /* текст тоже немного больше */
+  font-size: 1.1rem; 
 }
 
 .card img {
@@ -147,7 +147,7 @@ body {
 
 .video-wrapper {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 соотношение сторон */
+  padding-bottom: 56.25%; 
   height: 0;
   max-width: 1000px;
   margin: 0 auto;
@@ -286,7 +286,7 @@ body {
 }
 
 .logo img {
-  width: clamp(100px, 18vw, 240px); /* немного увеличены все значения */
+  width: clamp(100px, 18vw, 240px); 
   height: auto;
 }
 
@@ -391,12 +391,12 @@ body {
 
   .nav {
     position: fixed;
-    top: 60px; /* Отступ от верха */
-    right: -250px; /* Скрыто за пределами экрана */
-    width: 200px; /* Уменьшенная ширина */
-    height: auto; /* Автоматическая высота по содержимому */
-    max-height: 80vh; /* Максимальная высота - 80% экрана */
-    overflow-y: auto; /* Добавить прокрутку если не помещается */
+    top: 60px; 
+    right: -250px; 
+    width: 200px; 
+    height: auto; 
+    max-height: 80vh; 
+    overflow-y: auto; 
     background: var(--main-bg);
     flex-direction: column;
     border-radius: 5px 0 0 5px;
@@ -407,7 +407,7 @@ body {
   }
 
   .nav.active {
-    right: 0; /* Появляется справа */
+    right: 0; 
   }
 
   .nav a {
@@ -416,7 +416,7 @@ body {
     font-size: 1.1rem;
     text-align: left;
     width: 100%;
-    border-bottom: 0px solid rgba(255, 255, 255, 0.15); /* Толще разделитель */
+    border-bottom: 0px solid rgba(255, 255, 255, 0.15); 
   }
 
   .nav a:last-child {
@@ -453,8 +453,7 @@ body {
   .burger.active span:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-
-  /* Существующие стили для about */
+ 
   .about {
     flex-direction: column;
     align-items: center;
@@ -486,7 +485,6 @@ body {
     text-align: justify;
   }
 
-  /* Существующие стили для hero-text */
   .hero-text {
     top: 10%;
     font-size: 0.9rem;
@@ -497,7 +495,7 @@ body {
   }
   
   .video-wrapper {
-    padding-bottom: 75%; /* Более квадратное соотношение для мобильных */
+    padding-bottom: 75%; 
   }
 
   .subscriptions {
@@ -545,5 +543,3 @@ body {
     padding: 1.5rem;
   }
 }
-
-
